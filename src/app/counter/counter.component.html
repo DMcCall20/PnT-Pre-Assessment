@@ -1,0 +1,26 @@
+<h2>
+    <div><span>Count: </span>{{count}}</div>
+    <div>
+        <button (click)="addCount(-1)">-1</button>
+        <button (click)="addCount(1)">+1</button>
+    </div>
+    <div>
+        <button (click)="addCount(-10)">-10</button>
+        <button (click)="addCount(10)">+10</button>
+    </div>
+    <div>
+        <button (click)="addCount(-100)">-100</button>
+        <button (click)="addCount(100)">+100</button>
+    </div>
+    <div>
+        <button (click)="addCount(-1000)">-1000</button>
+        <button (click)="addCount(1000)">+1000</button>
+    </div>
+    <div>
+        <button (click)="multCount(.10)">/10</button>
+        <button (click)="multCount(10)">*10</button>
+    </div>
+    <div>
+        <button (click)="resetCount()">Reset</button>
+    </div>
+</h2>
