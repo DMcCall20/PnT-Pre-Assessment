@@ -120,6 +120,10 @@
               "devServerTarget": "PnT-Pre-Assessment:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
